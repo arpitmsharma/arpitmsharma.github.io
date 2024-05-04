@@ -1,0 +1,12 @@
+---
+version: 1
+service:
+  name: api-docs
+  lifecycle:
+  owner: expense-core
+  language:
+  description: |-
+    API Docs website - Documentation for APIs
+  tags:
+    - key: type
+      value: configuration
